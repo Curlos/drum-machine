@@ -1,0 +1,34 @@
+.box {
+  height: 35%;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#drum-machine {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:#D3D3D3;
+  padding: 5px;
+}
+
+.drum-pad {
+  background-color: gray;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  box-shadow: 5px 5px black;
+  margin: 10px;
+}
+
+.drum-pad:active, .drum-pad:focus {
+  background-color: orange;
+}
+
+#display {
+  background-color: gray;
+  font-size: 30px;
+  font-weight: bold;
+}
